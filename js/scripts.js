@@ -28,3 +28,39 @@
   // document.getElementById("peso").innerHTML = meu_peso; 
   // document.getElementById("altura").innerHTML = minha_altura.toFixed(2); 
   // document.getElementById("imc").innerHTML = parseFloat(calc_imc(meu_peso,minha_altura).toFixed(2)) ; 
+
+  //aula 19
+/*      
+  document.getElementById("click-me").onclick = function() {
+    alert('Você clicou no botão');
+};
+
+document.getElementById("hover-me").onmouseover = function() {
+    alert('Você passou o cursor por cima do botão');
+};
+
+document.getElementById("leave-me").onmouseout = function() {
+    alert('Você passou o cursor por cima do botão e depois saiu');
+};
+
+document.onkeydown = function() {
+  alert('Você apertou a tecla: ' + event.keyCode);
+};
+
+function button_clicked(){
+  alert("botão clicado");
+} */
+
+//aula 20
+/* document.getElementById("botao_cor").onclick = function() {
+  document.getElementById("botao_cor").style['background-color'] = "purple";
+  document.getElementById("botao_cor").style.transform = "translateX(100px)";
+}; */
+
+/* temos que usar a notação com colchetes com o background-color 
+porque o nome da propriedade contém um traço. Falamos isso na aula sobre objetos. */
+
+/* document.getElementById("botao_cor").onclick = function() {
+  this.style['background-color'] = "purple";
+  this.style.transform = "translateX(100px)";
+}; */
